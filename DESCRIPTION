@@ -1,0 +1,25 @@
+Package: EnrichExplainer
+Title: Interpret Functional Enrichment Results Using Large Language Model
+Version: 0.1.1
+Authors@R: 
+    person("Yuheng", "Tao", , "yuhengtao290037@stu.njmu.edu.cn", role = c("aut", "cre"))
+Description: Orchestrates biological interpretation of enrichment analysis results throughLLM interaction.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Depends:
+    R (>= 4.2.0)
+Imports: 
+    AnnotationDbi,
+    clusterProfiler,
+    dplyr,
+    httr,
+    igraph,
+    jsonlite,
+    reticulate,
+    yulab.utils
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
